@@ -9,3 +9,13 @@ This was done to gain insight and knowledge about extracting features from medic
 Based on our analysis of various models for classifying features of skin lesions, the following research question was formulated: *"How do models trained on melanoma lesions perform when classifying seborrhoeic keratosis lesions?"*
 
 Example data was included for illustration only, the training set is avaible from [ISIC](https://challenge.isic-archive.com/data/#2017).
+
+## The repo
+
+**data**
+- Includes data from computed features, so instead of recalculating, we load the csv files.
+- **example** subset of data used for this project as an example.
+
+**notebooks**
+- `main.ipynb` full project notebook with text explanations.
+- `personal-notebook.ipynb` personal notebook for experimentation, feature engineering and analysis.
